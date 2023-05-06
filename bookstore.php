@@ -12,8 +12,14 @@ Text Domain:  veronalabs
 Domain Path:  /languages
 */
 
+//Styles
+function books_styles() {
+    wp_register_style( 'books',  plugin_dir_url( __FILE__ ) . '/css/books.css' ); 
+    wp_enqueue_style( 'books' );                         
+}
+add_action( 'admin_init', 'books_styles' );
 
-//includes
+//Includes
 include( plugin_dir_path( __FILE__ ) . 'includes/books-cpt.php' );
 include( plugin_dir_path( __FILE__ ) . 'includes/cpt-taxonomies-filter.php' );
 include( plugin_dir_path( __FILE__ ) . 'includes/cpt-metabox.php' );

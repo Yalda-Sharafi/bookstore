@@ -1,0 +1,26 @@
+.edit-post-meta-boxes-area .postbox-header:hover{
+    background: #f0f0f0;
+    border: none;
+}
+#poststuff #demo-meta-box h2{
+    font-size: 13px;
+    padding: 16px 48px 16px 16px;
+}    
+#demo-meta-box .edit-post-meta-boxes-area .handlediv .toggle-indicator::before{
+    content: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' width='24' height='24' class='components-panel__arrow' aria-hidden='true' focusable='false'%3E%3Cpath d='M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z'%3E%3C/path%3E%3C/svg%3E");
+}
+#demo-meta-box .bookstore_metabox{
+    padding-top: 10px;
+}
+
+#demo-meta-box .bookstore_metabox .bookstore_fieldgroup{
+    margin-bottom: .5rem;
+}
+#demo-meta-box .bookstore_metabox label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+#demo-meta-box .bookstore_metabox .bookstore_fieldgroup input[type=text]{
+    width: 100%;
+}
