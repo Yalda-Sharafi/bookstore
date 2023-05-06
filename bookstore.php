@@ -15,6 +15,7 @@ Domain Path:  /languages
 
 //includes
 include( plugin_dir_path( __FILE__ ) . 'includes/books-cpt.php' );
+include( plugin_dir_path( __FILE__ ) . 'includes/cpt-taxonomies-filter.php' );
 
 
 
